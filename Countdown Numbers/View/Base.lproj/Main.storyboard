@@ -184,9 +184,9 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XSt-on-Cs4">
                                         <rect key="frame" x="0.0" y="0.0" width="41.5" height="70"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="95" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcE-qA-Xd2">
-                                                <rect key="frame" x="4" y="21.5" width="32.5" height="27.5"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcE-qA-Xd2">
+                                                <rect key="frame" x="4" y="24.5" width="32.5" height="21.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -202,8 +202,8 @@
                                         <rect key="frame" x="51.5" y="0.0" width="42" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="95" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17S-3k-am4">
-                                                <rect key="frame" x="5" y="22" width="32.5" height="27.5"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <rect key="frame" x="5" y="25" width="32.5" height="21.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -219,8 +219,8 @@
                                         <rect key="frame" x="103.5" y="0.0" width="41.5" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="95" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O65-61-A0b">
-                                                <rect key="frame" x="5" y="22" width="31.5" height="27.5"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <rect key="frame" x="5" y="25" width="31.5" height="21.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -236,8 +236,8 @@
                                         <rect key="frame" x="155" y="0.0" width="41.5" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="95" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKR-9f-8jA">
-                                                <rect key="frame" x="5" y="22" width="31.5" height="27.5"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <rect key="frame" x="5" y="25" width="31.5" height="21.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -253,8 +253,8 @@
                                         <rect key="frame" x="206.5" y="0.0" width="42" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="95" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgR-ac-N79">
-                                                <rect key="frame" x="5" y="22" width="32" height="27.5"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <rect key="frame" x="5" y="25" width="32" height="21.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -270,8 +270,8 @@
                                         <rect key="frame" x="258.5" y="0.0" width="41.5" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="95" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2A-1N-2Ab">
-                                                <rect key="frame" x="5" y="21.5" width="31.5" height="27.5"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                                <rect key="frame" x="5" y="24.5" width="31.5" height="21.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
