@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F24811B20CE34D900A7EA3D /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24811A20CE34D900A7EA3D /* Play.swift */; };
+		2F39436820CB8CF900132A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39436720CB8CF900132A03 /* AppDelegate.swift */; };
+		2F39436D20CB8CFA00132A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F39436B20CB8CFA00132A03 /* Main.storyboard */; };
+		2F39436F20CB8CFA00132A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F39436E20CB8CFA00132A03 /* Assets.xcassets */; };
+		2F39437220CB8CFA00132A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F39437020CB8CFA00132A03 /* LaunchScreen.storyboard */; };
+		2F39437E20CB94CC00132A03 /* ChooseCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39437D20CB94CC00132A03 /* ChooseCardsViewController.swift */; };
+		2F39438020CBA77500132A03 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39437F20CBA77500132A03 /* PlayViewController.swift */; };
+		2F39438220CBA91700132A03 /* PlayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39438120CBA91700132A03 /* PlayCollectionViewCell.swift */; };
+		2F39438520CBB7D400132A03 /* RandomCardPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39438420CBB7D400132A03 /* RandomCardPicker.swift */; };
+		2F39438720CBC6D800132A03 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39438620CBC6D800132A03 /* Stack.swift */; };
+		2F39438920CBC6F900132A03 /* EvaluateRPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39438820CBC6F900132A03 /* EvaluateRPN.swift */; };
+		2F39438B20CBC8F900132A03 /* ExpressionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39438A20CBC8F900132A03 /* ExpressionGenerator.swift */; };
+		2F39438D20CBEACD00132A03 /* Infix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39438C20CBEACD00132A03 /* Infix.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F24811A20CE34D900A7EA3D /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		2F39436420CB8CF900132A03 /* Countdown Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Countdown Numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F39436720CB8CF900132A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F39436C20CB8CFA00132A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F39436E20CB8CFA00132A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F39437120CB8CFA00132A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F39437320CB8CFA00132A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F39437D20CB94CC00132A03 /* ChooseCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCardsViewController.swift; sourceTree = "<group>"; };
+		2F39437F20CBA77500132A03 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		2F39438120CBA91700132A03 /* PlayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayCollectionViewCell.swift; sourceTree = "<group>"; };
+		2F39438420CBB7D400132A03 /* RandomCardPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCardPicker.swift; sourceTree = "<group>"; };
+		2F39438620CBC6D800132A03 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		2F39438820CBC6F900132A03 /* EvaluateRPN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateRPN.swift; sourceTree = "<group>"; };
+		2F39438A20CBC8F900132A03 /* ExpressionGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionGenerator.swift; sourceTree = "<group>"; };
+		2F39438C20CBEACD00132A03 /* Infix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infix.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F39436120CB8CF900132A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F24811920CE34B600A7EA3D /* User Sde */ = {
+			isa = PBXGroup;
+			children = (
+				2F24811A20CE34D900A7EA3D /* Play.swift */,
+			);
+			path = "User Sde";
+			sourceTree = "<group>";
+		};
+		2F39435B20CB8CF900132A03 = {
+			isa = PBXGroup;
+			children = (
+				2F39436620CB8CF900132A03 /* Countdown Numbers */,
+				2F39436520CB8CF900132A03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F39436520CB8CF900132A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F39436420CB8CF900132A03 /* Countdown Numbers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F39436620CB8CF900132A03 /* Countdown Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				2F39436720CB8CF900132A03 /* AppDelegate.swift */,
+				2F39437C20CB94B400132A03 /* Model */,
+				2F39437920CB948C00132A03 /* View */,
+				2F39437B20CB94A800132A03 /* Controller */,
+				2F39437A20CB949D00132A03 /* Support files */,
+				2F39437320CB8CFA00132A03 /* Info.plist */,
+			);
+			path = "Countdown Numbers";
+			sourceTree = "<group>";
+		};
+		2F39437920CB948C00132A03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F39437020CB8CFA00132A03 /* LaunchScreen.storyboard */,
+				2F39436B20CB8CFA00132A03 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F39437A20CB949D00132A03 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				2F39436E20CB8CFA00132A03 /* Assets.xcassets */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		2F39437B20CB94A800132A03 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F39437D20CB94CC00132A03 /* ChooseCardsViewController.swift */,
+				2F39437F20CBA77500132A03 /* PlayViewController.swift */,
+				2F39438120CBA91700132A03 /* PlayCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F39437C20CB94B400132A03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F24811920CE34B600A7EA3D /* User Sde */,
+				2F39438320CBB7AE00132A03 /* App Side */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F39438320CBB7AE00132A03 /* App Side */ = {
+			isa = PBXGroup;
+			children = (
+				2F39438420CBB7D400132A03 /* RandomCardPicker.swift */,
+				2F39438620CBC6D800132A03 /* Stack.swift */,
+				2F39438820CBC6F900132A03 /* EvaluateRPN.swift */,
+				2F39438A20CBC8F900132A03 /* ExpressionGenerator.swift */,
+				2F39438C20CBEACD00132A03 /* Infix.swift */,
+			);
+			path = "App Side";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F39436320CB8CF900132A03 /* Countdown Numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F39437620CB8CFA00132A03 /* Build configuration list for PBXNativeTarget "Countdown Numbers" */;
+			buildPhases = (
+				2F39436020CB8CF900132A03 /* Sources */,
+				2F39436120CB8CF900132A03 /* Frameworks */,
+				2F39436220CB8CF900132A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Countdown Numbers";
+			productName = "Countdown Numbers";
+			productReference = 2F39436420CB8CF900132A03 /* Countdown Numbers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F39435C20CB8CF900132A03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Vignesh;
+				TargetAttributes = {
+					2F39436320CB8CF900132A03 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2F39435F20CB8CF900132A03 /* Build configuration list for PBXProject "Countdown Numbers" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F39435B20CB8CF900132A03;
+			productRefGroup = 2F39436520CB8CF900132A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F39436320CB8CF900132A03 /* Countdown Numbers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F39436220CB8CF900132A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F39437220CB8CFA00132A03 /* LaunchScreen.storyboard in Resources */,
+				2F39436F20CB8CFA00132A03 /* Assets.xcassets in Resources */,
+				2F39436D20CB8CFA00132A03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F39436020CB8CF900132A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F39438D20CBEACD00132A03 /* Infix.swift in Sources */,
+				2F39438520CBB7D400132A03 /* RandomCardPicker.swift in Sources */,
+				2F39438220CBA91700132A03 /* PlayCollectionViewCell.swift in Sources */,
+				2F39438020CBA77500132A03 /* PlayViewController.swift in Sources */,
+				2F39438B20CBC8F900132A03 /* ExpressionGenerator.swift in Sources */,
+				2F39436820CB8CF900132A03 /* AppDelegate.swift in Sources */,
+				2F39438920CBC6F900132A03 /* EvaluateRPN.swift in Sources */,
+				2F39438720CBC6D800132A03 /* Stack.swift in Sources */,
+				2F39437E20CB94CC00132A03 /* ChooseCardsViewController.swift in Sources */,
+				2F24811B20CE34D900A7EA3D /* Play.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F39436B20CB8CFA00132A03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F39436C20CB8CFA00132A03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F39437020CB8CFA00132A03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F39437120CB8CFA00132A03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F39437420CB8CFA00132A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F39437520CB8CFA00132A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F39437720CB8CFA00132A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJMQMQQX3D;
+				INFOPLIST_FILE = "Countdown Numbers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bv.Countdown-Numbers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F39437820CB8CFA00132A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJMQMQQX3D;
+				INFOPLIST_FILE = "Countdown Numbers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bv.Countdown-Numbers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F39435F20CB8CF900132A03 /* Build configuration list for PBXProject "Countdown Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F39437420CB8CFA00132A03 /* Debug */,
+				2F39437520CB8CFA00132A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F39437620CB8CFA00132A03 /* Build configuration list for PBXNativeTarget "Countdown Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F39437720CB8CFA00132A03 /* Debug */,
+				2F39437820CB8CFA00132A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F39435C20CB8CF900132A03 /* Project object */;
+}
